@@ -8,12 +8,13 @@
 			</div>
 		</main>
 
-		<footer>Тут будет футер</footer>
+		<app-footer />
 	</div>
 </template>
 
 <style scoped lang="scss">
 .main {
+	min-height: calc(100vh - 132.5px);
 	margin: 35px 0 25px;
 	padding: 0 25px;
 }
