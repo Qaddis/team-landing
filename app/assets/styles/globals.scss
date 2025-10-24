@@ -1,0 +1,42 @@
+/* - Подготовка к стилизации - */
+
+// Сброс дефолтных стилей
+@use "reset";
+
+// Переменные
+@use "variables";
+
+/* - Стилизация - */
+html {
+	font-size: 16px;
+}
+
+body {
+	min-height: 100vh;
+
+	font-family: var(--roboto-font);
+	color: var(--main-light-color);
+
+	background-size: 150% 150%;
+	background-image: linear-gradient(
+		var(--bg-color-1),
+		var(--bg-color-2),
+		var(--bg-color-3)
+	);
+
+	animation: anim 10s ease-in-out infinite reverse;
+}
+
+@keyframes anim {
+	0% {
+		background-position: 0% 0%;
+	}
+
+	50% {
+		background-position: 0% 100%;
+	}
+
+	100% {
+		background-position: 0% 0%;
+	}
+}
