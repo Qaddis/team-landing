@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<header>Тут будет хэдер</header>
+		<app-header />
 
 		<main class="main">
 			<div class="wrapper">
@@ -14,7 +14,7 @@
 
 <style scoped lang="scss">
 .main {
-	margin: 25px 0;
+	margin: 35px 0 25px;
 	padding: 0 25px;
 }
 

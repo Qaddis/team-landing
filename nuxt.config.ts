@@ -13,5 +13,9 @@ export default defineNuxtConfig({
 			subsets: ["cyrillic", "latin"],
 			styles: ["normal", "italic"]
 		}
+	},
+
+	icon: {
+		componentName: "NuxtIcon"
 	}
 })
